@@ -1,0 +1,48 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 120,
+        "useTabs": false,
+        "semi": true,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "bracketSpacing": true,
+        "jsxBracketSameLine": false
+      }
+    ],
+    "no-console": "error",
+    "complexity": ["warn", 20],
+    "consistent-return": ["error"],
+    "eqeqeq": "error",
+    "no-constructor-return": "error",
+    "no-eq-null": "error",
+    "no-return-assign": "error",
+    "no-return-await": "error",
+    "no-unmodified-loop-condition": "error",
+    "no-useless-concat": "error",
+    "no-useless-return": "error",
+    "require-await": "error",
+    "init-declarations": "error",
+    "no-var": "error",
+    "prefer-const": ["error"],
+    "prefer-template": "error",
+    "prefer-arrow-callback": ["error"]
+  }
+}
