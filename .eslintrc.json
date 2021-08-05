@@ -27,7 +27,6 @@
         "jsxBracketSameLine": false
       }
     ],
-    "no-console": "error",
     "complexity": ["warn", 20],
     "consistent-return": ["error"],
     "eqeqeq": "error",
