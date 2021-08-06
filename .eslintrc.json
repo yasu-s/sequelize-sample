@@ -42,6 +42,8 @@
     "no-var": "error",
     "prefer-const": ["error"],
     "prefer-template": "error",
-    "prefer-arrow-callback": ["error"]
+    "prefer-arrow-callback": ["error"],
+    "max-depth": ["warn", 3],
+    "max-lines-per-function": ["warn", 20]
   }
 }
