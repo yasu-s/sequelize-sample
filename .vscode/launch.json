@@ -21,6 +21,15 @@
         "<node_internals>/**"
       ],
       "program": "${workspaceFolder}/src/sample2.js"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch sample3",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/src/sample3.js"
     }
   ]
 }
